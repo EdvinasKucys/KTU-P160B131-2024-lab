@@ -14,7 +14,7 @@ hist1 <- ggplot(data = data, aes(x = avgWage)) +
   geom_histogram(bins = 100, fill = "orange", color = "darkorange", size = 0.5) +
   labs(title = "Average wage histogram")
 
-ggsave("../img/1_uzd_grafikas.png", hist1, width = 3000,
+ggsave("../img/1_uzd.png", hist1, width = 3000,
                                            height = 1500, units = ("px"))
 
 # 2.2 Užtuotis: įmoniu˛ vidutinio atlyginimo kitimo dinamiką metų eigoje
@@ -34,7 +34,7 @@ g2 = data%>%
        color = "Įmonės pavadinimas") 
 
 
-ggsave("../img/2_uzd_grafikas.png", g2, width = 3000,
+ggsave("../img/2_uzd.png", g2, width = 3000,
        height = 1500, units = ("px"))
 
 # 2.3 užduotis: apdraustų darbuotojų skaičius
@@ -54,6 +54,6 @@ Graph3 = TopInsured%>%
   ggplot(aes(x = name, y = Insured, fill = name)) + geom_col() + theme_classic() +
   labs(title = "Top 5 įmonių apdraustųjų skaičius", fill = "Įmonės pavadinimas")
 
-ggsave("../img/Grafikas_3.png", Graph3, width = 6000, height = 3000, units = ("px"))
+ggsave("../img/3_uzd.png", Graph3, width = 6000, height = 3000, units = ("px"))
 
 
