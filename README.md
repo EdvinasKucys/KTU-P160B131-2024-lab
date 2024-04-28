@@ -2,14 +2,14 @@
 
 |Variantas | ecoActCode|Formatas          |
 |:---------|----------:|:-----------------|
-|14         |     471100|https://atvira.sodra.lt/imones/downloads/2023/monthly-2023.json.zip|
+|14         |     471100|https://atvira.sodra.lt/imones/downloads/2023/monthly-2023.csv.zip|
 
 
 ### 2.1 Užduotis
 
 Atsakymas:
 
-![histograma](img/pavyzdys1.png)
+![histograma](img/1_uzd.png)
 
 Išvados:
 
@@ -17,7 +17,7 @@ Išvados:
 
 Atsakymas:
 
-![atlyginimai](img/pavyzdys2.png)
+![atlyginimai](img/2_uzd.png)
 
 Išvados:
 
@@ -26,7 +26,7 @@ Išvados:
 
 Atsakymas:
 
-![apdraustieji](img/pavyzdys3.png)
+![apdraustieji](img/3_uzd.png)
 
 Išvados:
 
